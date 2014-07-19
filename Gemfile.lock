@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:phorque/chatterbot.git
+  remote: https://github.com/phorque/chatterbot.git
   revision: e2c6488aa9d71204edef40ae91e7717a7f13ba30
   specs:
     chatterbot (0.8.0)
