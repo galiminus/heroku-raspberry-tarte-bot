@@ -1,31 +1,52 @@
+GIT
+  remote: git@github.com:phorque/chatterbot.git
+  revision: e2c6488aa9d71204edef40ae91e7717a7f13ba30
+  specs:
+    chatterbot (0.8.0)
+      launchy (>= 2.1.2)
+      oauth (>= 0.4.7)
+      twitter (= 5.8.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.6)
-    chatterbot (0.7.1)
-      launchy (>= 2.1.2)
-      oauth
-      twitter (= 4.8.1)
+    buftok (0.2.0)
+    equalizer (0.0.9)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
+    http (0.5.1)
+      http_parser.rb
+    http_parser.rb (0.6.0)
+    json (1.8.1)
     launchy (2.4.2)
       addressable (~> 2.3)
-    multi_json (1.10.1)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
     multipart-post (2.0.0)
+    naught (1.0.0)
     nest (1.1.2)
       redis
     oauth (0.4.7)
     redis (3.1.0)
     simple_oauth (0.2.0)
-    twitter (4.8.1)
-      faraday (~> 0.8, < 0.10)
-      multi_json (~> 1.0)
-      simple_oauth (~> 0.2)
+    thread_safe (0.3.4)
+    twitter (5.8.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.5.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  chatterbot (~> 0.7.1)
+  chatterbot!
   nest (~> 1.1.2)
   redis (~> 3.1.0)
