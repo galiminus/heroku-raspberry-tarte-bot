@@ -1,8 +1,8 @@
 GIT
-  remote: https://github.com/phorque/chatterbot.git
-  revision: e2c6488aa9d71204edef40ae91e7717a7f13ba30
+  remote: git://github.com/muffinista/chatterbot.git
+  revision: 21febb3ad2defa1bbd8be0afb283461b732ebe5d
   specs:
-    chatterbot (0.8.0)
+    chatterbot (0.9.0)
       launchy (>= 2.1.2)
       oauth (>= 0.4.7)
       twitter (= 5.8.0)
